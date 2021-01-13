@@ -1,0 +1,55 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-size: 16px;
+	font-family: "Arial", "Georgia","Helvetica"; 
+	background-color: purple;
+}
+#welcome{
+	color: #ddd; /*Add grey color*/
+	font-weight: 1.5em; /*Increase font-weight*/
+	padding: 20px, 10px; /*Add some padding*/
+	margin: 40px, 15px; 
+}
+#welcome h1{
+	padding-top: 50px;
+	margin-top: 50px;
+	padding-left: 10px;
+}
+#welcome p{
+	font-size: 14px;
+}
+#searchbar{
+	background-image: url('../html/images/search-icon.png'); /* Add a search icon to input */
+ 	background-position: 10px 12px; /* Position the search icon */
+ 	background-repeat: no-repeat; /* Do not repeat the icon image */
+ 	width: 35%; /* width */
+ 	font-size: 16px; /* Increase font-size */
+ 	padding: 12px 20px 12px 40px; /* Add some padding */
+ 	border: 1px solid #ddd; /* Add a grey border */
+ 	border-radius: 10px; /*Give it a round edge*/
+ 	margin-bottom: 12px; /* Add some space below the input */
+}
+figure{
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+}
+.users a{
+	text-decoration: none;
+}
+.users div{
+	display: inline-grid;
+	background-color: none;
+	border: 0px; /* Add no border */
+	padding: 10px;
+	margin: 20px;
+}
+.users img{
+	width: 20px;
+}
+.users figcaption{
+	font-size: 13px;
+	text-align: center;
+	padding-top: 30px;
+}
