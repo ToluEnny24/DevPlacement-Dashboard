@@ -20,6 +20,10 @@ body{
 #welcome p{
 	font-size: 14px;
 }
+#emerald{
+	font-size: 1.2em;
+	font-family: "roboto";
+}
 #searchbar{
 	background-image: url('../html/images/search-icon.png'); /* Add a search icon to input */
  	background-position: 10px 12px; /* Position the search icon */
@@ -31,7 +35,9 @@ body{
  	border-radius: 10px; /*Give it a round edge*/
  	margin-bottom: 12px; /* Add some space below the input */
 }
-
+.users h5{
+	color: #ddd;
+}
 /*This is the style for the user icons and their individual backgrounds*/
 #all{
 	background-color: #FB1AB5;
