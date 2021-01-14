@@ -4,7 +4,7 @@
 body{
 	font-size: 16px;
 	font-family: "Arial", "Georgia","Helvetica"; 
-	background-color: purple;
+	background-color: #4C4C4D;
 }
 #welcome{
 	color: #ddd; /*Add grey color*/
@@ -31,25 +31,55 @@ body{
  	border-radius: 10px; /*Give it a round edge*/
  	margin-bottom: 12px; /* Add some space below the input */
 }
-figure{
-	margin-inline-start: 0;
-	margin-inline-end: 0;
+
+/*This is the style for the user icons and their individual backgrounds*/
+#all{
+	background-color: #FB1AB5;
+	background-image: url('../html/images/everyone.PNG');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 60px;
+	width: 55px;
+	padding: 20px;
+	border: 0;
+	border-radius: 10px;
+}
+#male{
+	background-color: #4EB3A2;
+	background-image: url('../html/images/male.PNG');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 60px;
+	width: 55px;
+	padding: 20px;
+	border: 0;
+	border-radius: 10px;
+}
+#female{
+	background-color: #6E09B9;
+	background-image: url('../html/images/female.PNG');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 60px;
+	width: 55px;
+	padding: 20px;
+	border: 0;
+	border-radius: 10px;
 }
 .users a{
 	text-decoration: none;
 }
-.users div{
+.users a:hover{
+	cursor: pointer;
+}
+.users figure{
 	display: inline-grid;
-	background-color: none;
-	border: 0px; /* Add no border */
-	padding: 10px;
-	margin: 20px;
-}
-.users img{
-	width: 20px;
-}
+	margin-inline-start: 10px;
+	margin-inline-end: 10px;
+} 
 .users figcaption{
-	font-size: 13px;
-	text-align: center;
-	padding-top: 30px;
+	font-size: 11px;
+	position: relative;
+	padding-top: 20px;
+	color: #ddd;
 }
