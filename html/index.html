@@ -8,43 +8,62 @@
 	 <link rel="stylesheet" type="text/css" href="../css/index.css">
 </head>
 <body>
-
+<div class="media">
+	<div class="left-side">
 <!-- This section welcomes you -->
-<div id="welcome">
-<h1 id="hello">Hello, <span id="emerald">Emerald</span></h1>
-<p>Welcome to your dashboard. Kindly sort through the user base.</p>
-<input type="text" id="searchbar" placeholder="Find a user">
-</div>
-
+	<div id="welcome">
+	<h1 id="hello">Hello, <span id="emerald">Emerald</span></h1>
+	<p>Welcome to your dashboard. Kindly sort through the user base.</p>
+	<input type="text" id="searchbar" placeholder="Find a user">
+	</div>
 
 <!-- This section would show the list of users -->
-<section class="users">
-<h5>Show Users</h5>
-<figure>
-	<a href="#">
-		<div id="all">
+	<section class="users">
+	<h5>Show Users</h5>
+	<figure>
+		<a href="#">
+			<div id="all">
 		 	<!-- This is a box that links to all the users -->
-		</div>
-	</a>
-	<figcaption>All users</figcaption>
-</figure>
-<figure>
-	<a href="#">
-		<div id="male">
+			</div>
+		</a>
+		<figcaption>All users</figcaption>
+	</figure>
+	<figure>
+		<a href="#">
+			<div id="male">
 			<!-- This is a box that links to the male users -->
-		</div>
-	</a>
-	<figcaption>Male Users</figcaption>
-</figure>
-<figure>
-	<a href="#">
-		<div id="female">
+			</div>
+		</a>
+		<figcaption>Male Users</figcaption>
+	</figure>
+	<figure>
+		<a href="#">
+			<div id="female">
 			<!-- This is a box that links to the female users -->
+			</div>
+		</a>
+		<figcaption>Female Users</figcaption>
+	</figure>
+	</section>
+	</div>
+<div class="right-side">
+	<fieldset class="data">
+	<div>
+		<h1>All Users</h1>
+		<h5>Filter by</h5>
+		<div>
+			<input type="text" id="filter" placeholder="find in list">
+			<select>
+				<option value="Country">Country</option>
+				<option value="gb">GB</option>
+				<option value="us">US</option>
+			</select>
 		</div>
-	</a>
-	<figcaption>Female Users</figcaption>
-</figure>
-
-</section>
+		<ul id="authors"></ul>
+	</div>
+	</fieldset>
+</div>	
+</div>
+<script src="../index.js"></script>
 </body>
 </html>

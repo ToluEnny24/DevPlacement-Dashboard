@@ -6,6 +6,13 @@ body{
 	font-family: "Arial", "Georgia","Helvetica"; 
 	background-color: #4C4C4D;
 }
+.media{
+	display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+}
+
 #welcome{
 	color: #ddd; /*Add grey color*/
 	font-weight: 1.5em; /*Increase font-weight*/
@@ -28,12 +35,13 @@ body{
 	background-image: url('../html/images/search-icon.png'); /* Add a search icon to input */
  	background-position: 10px 12px; /* Position the search icon */
  	background-repeat: no-repeat; /* Do not repeat the icon image */
- 	width: 35%; /* width */
+ 	width: 300px; /* width */
  	font-size: 16px; /* Increase font-size */
  	padding: 12px 20px 12px 40px; /* Add some padding */
  	border: 1px solid #ddd; /* Add a grey border */
  	border-radius: 10px; /*Give it a round edge*/
  	margin-bottom: 12px; /* Add some space below the input */
+ 	background-color: #ddd;
 }
 .users h5{
 	color: #ddd;
@@ -88,4 +96,38 @@ body{
 	position: relative;
 	padding-top: 20px;
 	color: #ddd;
+}
+.data{
+	width: 650px;
+    border: solid 1px;
+    border-radius: 10px;
+    height: fit-content;
+    background-color: white;
+    margin: 10px, 20px;
+    padding: 10px;
+}
+.data h5{
+	color: #ddd;
+}
+#filter{
+	background-image: url('../html/images/search-icon.png'); /* Add a search icon to input */
+ 	background-position: 5px; /* Position the search icon */
+ 	background-repeat: no-repeat; /* Do not repeat the icon image */
+ 	width: 200px; /* width */
+ 	font-size: 13px; /* Increase font-size */
+ 	padding: 7px 20px 12px 30px; /* Add some padding */
+ 	border: 1px solid #ddd; /* Add a grey border */
+ 	border-radius: 10px; /*Give it a round edge*/
+ 	margin-bottom: 12px;
+ 	background-color: #ddd;
+}
+select{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 7px;
+	padding-top: 7px;
+	margin: 10px;
+	background-color: #ddd;
+	border: 1px solid #ddd; /* Add a grey border */
+ 	border-radius: 10px;
 }
